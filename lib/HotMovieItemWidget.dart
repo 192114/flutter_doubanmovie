@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_douban/HotMovieData.dart';
 
-
 class HotMovieItemWidget extends StatefulWidget {
   HotMovieData hotMovieData;
 
@@ -10,7 +9,6 @@ class HotMovieItemWidget extends StatefulWidget {
 
   @override
   State<StatefulWidget> createState() {
-    // TODO: implement createState
     return HotMovieItemWidgetState();
   }
 }
@@ -20,7 +18,6 @@ class HotMovieItemWidgetState extends State<HotMovieItemWidget> {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return Container(
       height: 160,
       padding: EdgeInsets.all(20),
